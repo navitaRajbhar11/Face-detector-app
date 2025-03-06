@@ -5,7 +5,7 @@ from random import randrange
 trained_face_data = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 #Choose an image to detect faces in
-img = cv2.imread('v.jpg')
+img = cv2.imread('images/v.jpg')
 
 #Must convert to grayscale
 grayscaled_img = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
